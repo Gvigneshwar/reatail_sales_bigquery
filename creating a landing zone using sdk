@@ -1,0 +1,31 @@
+C:\Users\garig\AppData\Local\Google\Cloud SDK>gsutil mb gs://vig15
+Creating gs://vig15/...
+
+C:\Users\garig\AppData\Local\Google\Cloud SDK>gsutil ls
+gs://vig15/
+
+C:\Users\garig\AppData\Local\Google\Cloud SDK>gsutil cp C:\Users\garig\Downloads\retail_sales_sample.csv gs://vig15/retail.csv
+Copying file://C:\Users\garig\Downloads\retail_sales_sample.csv [Content-Type=application/vnd.ms-excel]...
+- [1 files][  264.0 B/  264.0 B]
+Operation completed over 1 objects/264.0 B.
+
+C:\Users\garig\AppData\Local\Google\Cloud SDK>gsutil ls
+gs://vig15/
+
+C:\Users\garig\AppData\Local\Google\Cloud SDK>cd gs://vig15/
+The filename, directory name, or volume label syntax is incorrect.
+
+C:\Users\garig\AppData\Local\Google\Cloud SDK>gsutil cd gs://vig15/
+CommandException: Invalid command "cd".
+
+C:\Users\garig\AppData\Local\Google\Cloud SDK>gsutil cat gs://vig15/
+order_id,date,product,category,quantity,price,region
+1001,2023-01-05,Shirt,Apparel,2,500,North
+1002,2023-01-06,Jeans,Apparel,1,1200,West
+1003,2023-01-06,Shirt,Apparel,3,500,North
+1004,2023-01-07,Jacket,Apparel,1,2000,South
+1005,2023-01-08,Shirt,Apparel,2,500,East
+
+The data is copied to GCS 
+Selecting biqQuery in google console ,create a data set(v15) and copy the path file of the data into this dataset then u can perform SQl queries 
+based on outcome
