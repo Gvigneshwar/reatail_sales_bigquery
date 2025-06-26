@@ -31,7 +31,7 @@ SELECT
   product,
   SUM(quantity * price) AS total_revenue
 FROM
-  `your-project.retail_data.retail_sales`
+  `vignesh-15.v15.retail_sales`
 GROUP BY
   product
 ORDER BY
