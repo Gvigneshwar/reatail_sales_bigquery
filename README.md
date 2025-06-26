@@ -50,3 +50,20 @@ Successfully created a working data pipeline without any code (Python-free)
 Developed SQL skills and experience with GCP cloud data tools
 
 Built a real-world project for my data engineering portfolio
+
+📁 File Structure
+bash
+Copy
+Edit
+retail_sales_sample.csv    # Raw dataset uploaded to Cloud Storage
+
+✍️ Author
+Vigneshwar Rao Garige
+Aspiring Data Engineer | GCP-Trained | Business-Driven Thinker
+
+📌 Next Steps
+Automate loading using scheduled queries
+
+Visualize data using Looker Studio or Google Sheets
+
+Expand to multiple datasets (e.g., returns, customers)
