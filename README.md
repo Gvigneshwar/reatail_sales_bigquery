@@ -36,3 +36,17 @@ GROUP BY
   product
 ORDER BY
   total_revenue DESC;
+
+📊 Insights
+Identified top-performing products by revenue
+
+Analyzed sales distribution across regions
+
+Built logic to compute total_sales directly in SQL without any external tools
+
+✅ Outcome
+Successfully created a working data pipeline without any code (Python-free)
+
+Developed SQL skills and experience with GCP cloud data tools
+
+Built a real-world project for my data engineering portfolio
